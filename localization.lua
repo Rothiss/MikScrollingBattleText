@@ -929,6 +929,14 @@ MikSBT.DEFAULT_CONFIG = {
     Normal 						= {FontIndex=0, OutlineIndex=0, FontSize=0},
    },
   },
+  MSBT_EVENTTYPE_OUTGOING_PET_SPELL_REFLECT = {
+   Show						= true,
+   Message						= L["Pet "]..REFLECT.."! (%s)",
+   FontSettings = {
+    Color						= {r=0.502, g=0.502, b=1},
+    Normal 						= {FontIndex=0, OutlineIndex=0, FontSize=0},
+   },
+  },
   MSBT_EVENTTYPE_OUTGOING_PET_SPELL_EVADE = {
    Show						= true,
    Message						= L["Pet "]..EVADE.."! (%s)",
