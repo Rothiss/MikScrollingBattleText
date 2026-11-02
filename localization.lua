@@ -865,6 +865,14 @@ MikSBT.DEFAULT_CONFIG = {
     Crit 						= {FontIndex=0, OutlineIndex=0, FontSize=0},
    },
   },
+  MSBT_EVENTTYPE_OUTGOING_PET_SPELL_DOT = {
+   Show						= true,
+   Message						= L["Pet %a (%s)"],
+   FontSettings = {
+    Color						= {r=0.33, g=0.33, b=1},
+    Normal 						= {FontIndex=0, OutlineIndex=0, FontSize=0},
+   },
+  },
   MSBT_EVENTTYPE_OUTGOING_PET_SPELL_MISS = {
    Show						= true,
    Message						= L["Pet "]..MISS.."! (%s)",
