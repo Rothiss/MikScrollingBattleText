@@ -51,7 +51,7 @@ local nameIconCache = {}
 local function GetNameIcon(name)
  local icon = nameIconCache[name];
  if (icon == nil) then
-  local _, _, spellIcon = GetSpellInfo(name);
+  local spellIcon = C_Spell.GetSpellTexture(name);
   icon = MikSBT.GetAuraIcon(name) or spellIcon or MikSBT.FindItemIcon(name) or false;
   nameIconCache[name] = icon;
  end
